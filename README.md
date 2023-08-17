@@ -54,7 +54,6 @@ You can now call `go generate`:
 go generate ./main.go
 ```
 
-The generator will augment the doc comment to add quick links to metrics (using the Prometheus URL as base URL), and add a unique defer statement that will take care of instrumenting your code.
 
 4. Build and run the application
 
